@@ -3,6 +3,8 @@ Simplified Streamlit App for Ethical AI RAG System
 Deployment-ready version with minimal dependencies
 """
 
+import sys
+
 try:
     import PyPDF2
 except ImportError:
